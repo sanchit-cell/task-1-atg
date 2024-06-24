@@ -1,0 +1,42 @@
+.location-input {
+  width: 100%;
+  /* margin: 20px; */
+  font-family: var(--primary-font);
+}
+.display-container img,
+.input-container img{
+  cursor: pointer;
+}
+.display-container,
+.input-container{
+  border-bottom: 1px solid #B8B8B8;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.disp-cont-under{
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.disp-cont-under>span{
+  font-size: var(--smaller-font-size);
+  font-weight: var(--weight-500);
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--weight-500);
+}
+
+.input-container input::placeholder {
+  padding: 0 3px;
+  font-size: var(--smaller-font-size);
+}
